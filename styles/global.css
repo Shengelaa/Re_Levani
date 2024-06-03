@@ -1,9 +1,195 @@
-* {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a {
-  background-color: red;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Work Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: url("../../assets/fonts/NotoSansGeorgian-VariableFont_wdthwght.ttf");
+}
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+body header {
+  background-color: black;
+}
+body header .header_container {
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+body header .header_container .header_content {
+  max-width: 1110px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .header_container .header_content .header_ul {
+  display: flex;
+  flex-direction: row;
+}
+body header .header_container .header_content .header_ul .header_li {
+  margin-right: 10px;
+}
+body header .underline {
+  max-width: 1110px;
+  width: 100%;
+  background-color: #979797;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 15px;
 }/*# sourceMappingURL=global.css.map */
