@@ -156,20 +156,18 @@ body {
   font-family: "Noto Sans Georgian", sans-serif;
 }
 
-body {
+header {
   background-color: #0e0e0e;
 }
-body header {
-  background-color: #0e0e0e;
-}
-body header .header_container {
+header .header_container {
   max-width: 1440px;
   height: 100px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
-body header .header_container .header_content {
+header .header_container .header_content {
+  cursor: default;
   max-width: 1110px;
   width: 100%;
   background-color: #0e0e0e;
@@ -178,22 +176,34 @@ body header .header_container .header_content {
   justify-content: space-between;
   align-items: center;
 }
-body header .header_container .header_content .header_ul {
+header .header_container .header_content .header_ul {
+  cursor: pointer;
   margin-left: -60px;
   display: flex;
   flex-direction: row;
 }
-body header .header_container .header_content .header_ul .header_li {
+header .header_container .header_content .header_ul .header_li {
   margin-right: 10px;
   font-size: 25px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.2s linear;
 }
-body header .header_container .header_content .header_ul .header_ahref {
+header .header_container .header_content .header_ul .header_li:hover {
+  color: #d87d4a;
+}
+header .header_container .header_content .header_ul .logo .header_zhref {
+  cursor: default;
+}
+header .header_container .header_content .header_ul .header_ahref {
   font-size: 20px;
   margin-left: 40px;
+  transition: all 0.2s linear;
 }
-body header .underline {
+header .header_container .header_content .header_ul .header_ahref:hover {
+  color: #d87d4a !important;
+}
+header .underline {
   max-width: 1110px;
   width: 100%;
   background-color: #979797;
@@ -203,13 +213,18 @@ body header .underline {
 }
 
 .section1 {
-  width: 1100px;
+  width: 100%;
+  background-color: #0e0e0e;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 .section1 .sec1_part1 {
-  margin-top: 130px;
+  margin-top: 0px;
   width: 398px;
   height: 346px;
 }
@@ -254,9 +269,68 @@ body header .underline {
   margin-left: 6px;
 }
 .section1 .sec1_img {
+  margin-left: 135px;
   overflow: hidden;
+  background-color: #0e0e0e;
+  width: 440px;
+  height: 356px;
+  margin-top: 24px;
+  opacity: 1;
 }
 .section1 .sec1_img .sec1_imgz {
-  margin-top: -150px;
   mix-blend-mode: lighten;
+  opacity: 0.5;
+  height: 400px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 160px;
+  width: 1110px;
+  height: 284px;
+  justify-content: space-between;
+}
+.section2 .r {
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section2 .r .sec2_img {
+  margin-top: -70px;
+  margin-bottom: 36px;
+}
+.section2 .r .img1z {
+  margin-bottom: 45px;
+}
+.section2 .r .img2z {
+  margin-top: -60px;
+  margin-bottom: 50px;
+}
+.section2 .r .textz {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.section2 .r .shop {
+  opacity: 0.5;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.section2 .r .shop:hover {
+  color: #d87d4a;
+  opacity: 1;
+}
+.section2 .r .path {
+  display: flex;
+  flex-direction: row;
+}
+.section2 .r .path .Pointer {
+  margin-left: 15px;
 }/*# sourceMappingURL=global.css.map */
