@@ -1,10 +1,15 @@
 .section1 {
-  width: 1100px;
+  width: 100%;
+  background-color: #0e0e0e;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
   .sec1_part1 {
-    margin-top: 130px;
+    margin-top: 0px;
     width: 398px;
     height: 346px;
 
@@ -54,10 +59,17 @@
   }
 
   .sec1_img {
+    margin-left: 135px;
     overflow: hidden;
+    background-color: #0e0e0e;
+    width: 440px;
+    height: 356px;
+    margin-top: 24px;
+    opacity: 1;
     .sec1_imgz {
-      margin-top: -150px;
       mix-blend-mode: lighten;
+      opacity: 0.5;
+      height: 400px;
     }
   }
 }
