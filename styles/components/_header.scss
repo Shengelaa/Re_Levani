@@ -31,6 +31,10 @@ header {
           font-weight: 700;
           font-family: Arial, Helvetica, sans-serif;
           transition: all 0.2s linear;
+
+          .header_ahref {
+            color: white;
+          }
         }
 
         .header_li:hover {
