@@ -189,6 +189,9 @@ header .header_container .header_content .header_ul .header_li {
   font-family: Arial, Helvetica, sans-serif;
   transition: all 0.2s linear;
 }
+header .header_container .header_content .header_ul .header_li .header_ahref {
+  color: white;
+}
 header .header_container .header_content .header_ul .header_li:hover {
   color: #d87d4a;
 }
@@ -333,4 +336,30 @@ header .underline {
 }
 .section2 .r .path .Pointer {
   margin-left: 15px;
+}
+
+.section3 {
+  width: 1110px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+.section3 .titles {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 445px;
+  margin-right: 120px;
+  margin-top: 130px;
+}
+.section3 .titles .sec3_cont {
+  width: 445px;
+  height: 88px;
+  margin-bottom: 32px;
+}
+.section3 .titles .sec3_cont .title1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.section3 .titles .sec3_cont .orangeTitle {
+  color: #d87d4a;
 }/*# sourceMappingURL=global.css.map */
