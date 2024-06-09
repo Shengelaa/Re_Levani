@@ -165,6 +165,7 @@ footer {
   margin: 0 auto;
 }
 footer .footer_list {
+  width: 100%;
   display: flex;
   flex-direction: row;
   color: white;
@@ -259,7 +260,8 @@ footer .footer_list2 .icons .icon3:hover svg path {
 footer .footer_lastPar {
   color: white;
   opacity: 0.5;
-  margin: 40px 0px 50px 202px;
+  margin: 50px 0px 0px 0px;
+  width: 300px;
 }
 
 header {
@@ -281,6 +283,19 @@ header .header_container .header_content {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+header .header_container .header_content .burgermenu {
+  width: 16px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+header .header_container .header_content .burgermenu .burger {
+  width: 16px;
+  height: 3px;
+  background-color: white;
 }
 header .header_container .header_content .cart a .cartIcon {
   width: 24px;
@@ -462,6 +477,9 @@ header .underline {
   margin: 0 auto;
   margin-top: 110px;
 }
+.section3 .responsiveMan {
+  display: none;
+}
 .section3 .titles {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 445px;
@@ -479,4 +497,31 @@ header .underline {
 }
 .section3 .titles .sec3_cont .orangeTitle {
   color: #d87d4a;
+}
+
+@media (max-width: 1122px) and (min-width: 450px) {
+  body header .header_container .header_content {
+    display: flex;
+  }
+  body header .header_container .header_content .navigation ul {
+    display: none;
+  }
+  body header .header_container .header_content .burgermenu {
+    cursor: pointer;
+    display: flex;
+  }
+  body header .header_container .header_content .burgerandLogo {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+  }
+  body header .header_container .header_content .burgerandLogo .logo {
+    margin-top: -5px;
+  }
+  body .section1 {
+    max-width: 1122px;
+    min-width: 450px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=global.css.map */

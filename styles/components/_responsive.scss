@@ -1,0 +1,35 @@
+body {
+  @media (max-width: 1122px) and (min-width: 450px) {
+    header {
+      .header_container {
+        .header_content {
+          display: flex;
+          .navigation {
+            ul {
+              display: none;
+            }
+          }
+          .burgermenu {
+            cursor: pointer;
+            display: flex;
+          }
+          .burgerandLogo {
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            justify-content: space-between;
+
+            .logo {
+              margin-top: -5px;
+            }
+          }
+        }
+      }
+    }
+    .section1 {
+      max-width: 1122px;
+      min-width: 450px;
+      width: 100%;
+    }
+  }
+}
