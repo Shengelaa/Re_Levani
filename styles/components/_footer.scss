@@ -15,7 +15,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 1110px;
+    max-width: 1110px;
     height: 25px;
     margin-top: 1167px;
 
@@ -29,6 +29,7 @@ footer {
       margin-top: 75px;
       display: flex;
       flex-direction: row;
+      max-width: 1100px;
       li {
         margin-right: 35px;
         cursor: pointer;
@@ -47,14 +48,14 @@ footer {
     margin-top: 60px;
     display: flex;
     flex-direction: row;
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
     margin-top: 60px;
     justify-content: space-between;
     .footer_par {
       line-height: 20px;
       margin-top: 75px;
-      width: 540px;
+      max-width: 540px;
       height: 100px;
       opacity: 0.5;
     }

@@ -172,7 +172,7 @@ footer .footer_list {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: 1110px;
+  max-width: 1110px;
   height: 25px;
   margin-top: 1167px;
 }
@@ -185,6 +185,7 @@ footer .footer_list .footer_ul {
   margin-top: 75px;
   display: flex;
   flex-direction: row;
+  max-width: 1100px;
 }
 footer .footer_list .footer_ul li {
   margin-right: 35px;
@@ -201,7 +202,7 @@ footer .footer_list2 {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
-  width: 1110px;
+  max-width: 1110px;
   margin: 0 auto;
   margin-top: 60px;
   justify-content: space-between;
@@ -209,7 +210,7 @@ footer .footer_list2 {
 footer .footer_list2 .footer_par {
   line-height: 20px;
   margin-top: 75px;
-  width: 540px;
+  max-width: 540px;
   height: 100px;
   opacity: 0.5;
 }
@@ -423,7 +424,7 @@ header .underline {
   flex-direction: row;
   margin: 0 auto;
   margin-top: 160px;
-  width: 1110px;
+  max-width: 1110px;
   height: 284px;
   justify-content: space-between;
 }
@@ -500,7 +501,13 @@ header .underline {
 }
 
 @media (max-width: 1122px) and (min-width: 450px) {
+  body header {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
   body header .header_container .header_content {
+    width: 900px;
     display: flex;
   }
   body header .header_container .header_content .navigation ul {
@@ -520,8 +527,45 @@ header .underline {
     margin-top: -5px;
   }
   body .section1 {
-    max-width: 1122px;
-    min-width: 450px;
+    width: 1122px;
+    background-color: #0e0e0e;
+    width: 100%;
+  }
+  body .section1 .sec1_img .sec1_imgz {
+    display: none;
+  }
+  body .section2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body .section3 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  body .section3 .sec3_imgDiv {
+    flex-direction: column;
+  }
+  body .section3 .sec3_imgDiv .sec3_img {
+    display: none;
+  }
+  body .section3 .sec3_imgDiv .responsiveMan {
+    display: flex;
+    width: 100%;
+  }
+  body footer {
+    width: 100%;
+  }
+  body footer .footer_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .footer_list2 {
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .footer_list2 .par10 {
     width: 100%;
   }
 }/*# sourceMappingURL=global.css.map */

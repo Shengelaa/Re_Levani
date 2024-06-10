@@ -1,9 +1,14 @@
 body {
   @media (max-width: 1122px) and (min-width: 450px) {
     header {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
       .header_container {
         .header_content {
+          width: 900px;
           display: flex;
+
           .navigation {
             ul {
               display: none;
@@ -27,9 +32,48 @@ body {
       }
     }
     .section1 {
-      max-width: 1122px;
-      min-width: 450px;
+      width: 1122px;
+      background-color: #0e0e0e;
       width: 100%;
+      .sec1_img {
+        .sec1_imgz {
+          display: none;
+        }
+      }
+    }
+    .section2 {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .section3 {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      .sec3_imgDiv {
+        flex-direction: column;
+        .sec3_img {
+          display: none;
+        }
+        .responsiveMan {
+          display: flex;
+          width: 100%;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      .footer_list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer_list2 {
+        display: flex;
+        flex-direction: column;
+        .par10 {
+          width: 100%;
+        }
+      }
     }
   }
 }
