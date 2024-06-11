@@ -3,6 +3,7 @@ header {
 
   .header_container {
     max-width: 1440px;
+
     height: 100px;
     margin: 0 auto;
 
@@ -10,6 +11,39 @@ header {
     justify-content: center;
 
     .header_content {
+      .burgermenu {
+        width: 16px;
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+        .burger {
+          width: 16px;
+          height: 3px;
+          background-color: white;
+        }
+      }
+      .cart {
+        a {
+          .cartIcon {
+            width: 24px;
+            height: 20px;
+            path {
+              transition: 250ms;
+            }
+          }
+          &:hover {
+            .cartIcon {
+              path {
+                fill: orange;
+                transition: 250ms;
+              }
+            }
+          }
+        }
+      }
+
       cursor: default;
       max-width: 1110px;
       width: 100%;

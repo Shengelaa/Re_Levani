@@ -1,0 +1,387 @@
+body {
+  @media (max-width: 1122px) and (min-width: 587px) {
+    header {
+      width: 100%;
+      margin: 0 auto;
+      .underline {
+      }
+      .header_container {
+        .header_content {
+          width: 900px;
+          display: flex;
+
+          .navigation {
+            ul {
+              display: none;
+            }
+          }
+          .burgermenu {
+            cursor: pointer;
+            display: flex;
+          }
+          .burgerandLogo {
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            justify-content: space-between;
+
+            .logo {
+              margin-top: -5px;
+            }
+          }
+        }
+      }
+    }
+    .section1 {
+      z-index: 0;
+      max-width: 1122px;
+      background-color: #0e0e0e;
+      position: relative;
+      width: 100%;
+      .sec1_part1 {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        .content1 {
+          flex-direction: column;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+
+          z-index: 22;
+        }
+        .sec1_button {
+        }
+        .img_responsive {
+          position: absolute;
+          margin: 0 auto;
+
+          left: -23%;
+          top: -40%;
+          display: flex;
+        }
+      }
+    }
+
+    .sec1_img {
+      width: 100%;
+      margin: 0 auto;
+      display: none;
+      .sec1_imgz {
+        display: none;
+        z-index: 2;
+        right: 20%;
+      }
+    }
+    .section2 {
+      margin-top: 300px;
+      .r {
+        margin-right: 15px;
+      }
+      display: flex;
+      height: 700px;
+      justify-content: space-between;
+    }
+    .section3 {
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto;
+      justify-content: space-between;
+      height: 600px;
+      .titles {
+        width: 100%;
+        margin: 0 auto;
+        .sec3_cont {
+          text-align: center;
+          margin: 0 auto;
+          width: 100%;
+          align-items: center;
+        }
+
+        .sec3_par {
+          text-align: center;
+          margin-top: 20px;
+        }
+      }
+      .sec3_imgDiv {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        .sec3_img {
+          display: none;
+        }
+        .responsiveMan {
+          margin: 0 auto;
+          display: flex;
+          width: 100%;
+          max-width: 600px;
+        }
+      }
+    }
+    footer {
+      margin: 0 auto;
+      width: 100%;
+      .footer_list {
+        margin-left: 2%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+        .footer_ul {
+          width: 50%;
+          margin-top: 30px;
+        }
+      }
+      .footer_list2 {
+        margin-left: 2%;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        .icons {
+          display: flex;
+          width: 100%;
+          justify-content: right;
+        }
+        .par10 {
+          width: 100%;
+        }
+        .footer_par {
+          width: 100%;
+          max-width: 1000px;
+        }
+
+        .footer_lastPar {
+          margin-bottom: -160px;
+        }
+      }
+    }
+  }
+}
+body {
+  overflow-x: hidden;
+  @media (max-width: 587px) {
+    header {
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      max-width: 587px;
+
+      .header_container {
+        width: 100%;
+        margin: 0 auto;
+        .header_content {
+          display: flex;
+          justify-content: space-between;
+
+          width: 100%;
+
+          .cart {
+            margin-left: 50px;
+            padding-right: 10px;
+            justify-content: flex-end;
+            width: 100%;
+            max-width: 587px;
+            position: absolute;
+            left: 70%;
+            width: 20px;
+          }
+          max-width: 400px;
+          margin: 0 auto;
+          .burgerandLogo {
+            width: 100%;
+            justify-content: space-between;
+            max-width: 350px;
+
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row;
+            .burgermenu {
+              margin-right: 40px;
+              display: flex;
+              padding-left: 10px;
+              margin-right: 40%;
+            }
+          }
+        }
+        .navigation {
+          display: flex;
+
+          .header_ul {
+            display: none;
+          }
+        }
+      }
+    }
+    .section1 {
+      width: 100%;
+      .sec1_img {
+        display: none;
+      }
+      margin: 0 auto;
+      .sec1_part1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        .content1 {
+          display: flex;
+          flex-direction: column;
+
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          z-index: 1;
+
+          .product {
+            align-items: center;
+            align-self: center;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            max-width: 200px;
+          }
+          .sec1_name {
+            text-align: center;
+            font-size: 28px;
+            max-width: 300px;
+            align-items: center;
+            width: 100%;
+          }
+          .sec1_text {
+            margin-top: -20px;
+
+            width: 250px;
+            margin-bottom: 20px;
+          }
+          .sec1_button {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 150px;
+          }
+          margin: 0 auto;
+          left: 50px;
+          width: 100%;
+          max-width: 450px;
+        }
+        .img_responsive {
+          display: flex;
+          width: 100%;
+          max-width: 400px;
+          z-index: 0;
+          overflow: hidden;
+
+          margin: -300px 0 auto;
+          margin-left: 0%;
+        }
+      }
+    }
+    .section2 {
+      display: flex;
+      flex-direction: column;
+
+      height: 1000px;
+      .div1 {
+        position: relative;
+        width: 100%;
+        max-width: 587px;
+      }
+      .div2 {
+        width: 100%;
+        max-width: 587px;
+      }
+
+      .div3 {
+        max-width: 587px;
+        width: 100%;
+      }
+    }
+    .section3 {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 450px;
+      display: flex;
+      flex-direction: column-reverse;
+      .titles {
+        width: 100%;
+        max-width: 350px;
+        .sec3_cont {
+          width: 100%;
+          max-width: 450px;
+          text-align: center;
+          margin-bottom: 150px;
+        }
+      }
+      .sec3_imgDiv {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 450px;
+        .sec3_img {
+          display: none;
+        }
+        .responsiveMan {
+          margin: 0 auto;
+          display: flex;
+          max-width: 350px;
+          min-width: 200px;
+          width: 100%;
+        }
+      }
+    }
+    footer {
+      margin-top: 500px;
+      height: 700px;
+      .footer_list {
+        margin: 0 auto;
+
+        max-width: 587px;
+        width: 100%;
+        min-width: 320px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        align-items: center;
+
+        .footer_ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          li {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .footer_list2 {
+        overflow: hidden;
+        width: 100%;
+        max-width: 450px;
+        .par10 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          height: auto;
+          margin-top: 100px;
+          .footer_par {
+            margin-top: 100px;
+          }
+        }
+        .icons {
+          top: 595%;
+          left: 30%;
+          width: 100%;
+          max-width: 100px;
+          display: flex;
+          flex-direction: row;
+          position: absolute;
+
+          max-width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}

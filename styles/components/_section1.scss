@@ -7,11 +7,13 @@
   height: 600px;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
   .sec1_part1 {
     margin-top: 0px;
     width: 398px;
     height: 346px;
+    .img_responsive {
+      display: none;
+    }
 
     .product {
       width: 199px;
