@@ -273,9 +273,10 @@ body {
           max-width: 400px;
           z-index: 0;
           overflow: hidden;
-
-          margin: -300px 0 auto;
-          margin-left: 0%;
+          margin-top: -300px;
+          margin: -300px 0 auto 0px;
+          justify-content: center;
+          align-items: center;
         }
       }
     }
@@ -318,7 +319,7 @@ body {
       .sec3_imgDiv {
         margin: 0 auto;
         width: 100%;
-        max-width: 450px;
+
         .sec3_img {
           display: none;
         }
@@ -370,7 +371,7 @@ body {
           }
         }
         .icons {
-          top: 595%;
+          margin-top: 450px;
           left: 30%;
           width: 100%;
           max-width: 100px;
@@ -380,6 +381,58 @@ body {
 
           max-width: 50px;
           height: 50px;
+        }
+      }
+    }
+  }
+}
+body {
+  @media screen and (max-width: 1165px) and (min-width: 700px) {
+    .timer {
+      margin: 0 auto;
+      max-width: 500px;
+      .timerContainer {
+        margin: 0 auto;
+        max-width: 500px;
+        .d1v {
+          display: flex;
+          flex-direction: column;
+          margin-left: 10px;
+          margin-right: 10px;
+          .timerDiv {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  @media screen and (max-width: 700px) {
+    .timer {
+      margin: 0 auto;
+      max-width: 500px;
+      height: auto;
+      .timerContainer {
+        margin: 0 auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+
+        .d1v {
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          max-width: 255px;
+          margin-left: 0px;
+          margin-right: 0px;
+          .timerDiv {
+            margin-bottom: 20px;
+          }
         }
       }
     }

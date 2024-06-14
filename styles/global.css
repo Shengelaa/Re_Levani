@@ -754,8 +754,10 @@ body {
     max-width: 400px;
     z-index: 0;
     overflow: hidden;
-    margin: -300px 0 auto;
-    margin-left: 0%;
+    margin-top: -300px;
+    margin: -300px 0 auto 0px;
+    justify-content: center;
+    align-items: center;
   }
   body .section2 {
     display: flex;
@@ -795,7 +797,6 @@ body {
   body .section3 .sec3_imgDiv {
     margin: 0 auto;
     width: 100%;
-    max-width: 450px;
   }
   body .section3 .sec3_imgDiv .sec3_img {
     display: none;
@@ -845,7 +846,7 @@ body {
     margin-top: 100px;
   }
   body footer .footer_list2 .icons {
-    top: 595%;
+    margin-top: 450px;
     left: 30%;
     width: 100%;
     max-width: 100px;
@@ -854,6 +855,54 @@ body {
     position: absolute;
     max-width: 50px;
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 1165px) and (min-width: 700px) {
+  body .timer {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  body .timer .timerContainer {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  body .timer .timerContainer .d1v {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  body .timer .timerContainer .d1v .timerDiv {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body .timer {
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+  }
+  body .timer .timerContainer {
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  body .timer .timerContainer .d1v {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 255px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .timer .timerContainer .d1v .timerDiv {
+    margin-bottom: 20px;
   }
 }
 
@@ -885,7 +934,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-.timer .timerContainer .timerDiv {
+.timer .timerContainer .d1v {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer .timerContainer .d1v .timerDiv {
+  margin-right: 25px;
   background-color: #101010;
   width: 252px;
   height: 199px;
@@ -896,12 +951,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.timer .timerContainer .timerDiv .time {
+.timer .timerContainer .d1v .timerDiv .time {
   font-size: 64px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.timer .timerContainer .timerDiv .time2 {
+.timer .timerContainer .d1v .timerDiv .time2 {
   opacity: 0.5;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;

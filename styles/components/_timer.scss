@@ -18,27 +18,34 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .timerDiv {
-      background-color: #101010;
-      width: 252px;
-      height: 199px;
-      border-radius: 20px;
-      color: white;
+    .d1v {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      .time {
-        font-size: 64px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+      flex-direction: row;
+      justify-content: space-between;
 
-      .time2 {
-        opacity: 0.5;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 10px;
+      .timerDiv {
+        margin-right: 25px;
+        background-color: #101010;
+        width: 252px;
+        height: 199px;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .time {
+          font-size: 64px;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .time2 {
+          opacity: 0.5;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 10px;
+        }
       }
     }
   }
