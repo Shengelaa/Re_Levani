@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
@@ -151,7 +154,21 @@
           class="responsiveMan" />
       </div>
     </section>
-    <div class="slider"></div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/svg/swiper/Frame 22.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/svg/swiper/Frame 61.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/svg/swiper/Frame 62.png" alt="" />
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
     <div class="timer">
       <h2 class="timerTitle">Big Summer Sale</h2>
 
@@ -246,5 +263,6 @@
         </div>
       </div>
     </footer>
+    <link rel="stylesheet" href="js/swiper.js" />
   </body>
 </html>
