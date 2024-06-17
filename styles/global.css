@@ -906,20 +906,9 @@ body {
   }
 }
 
-.swiper-container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1100px;
-  justify-content: space-between;
-  flex-direction: row;
-}
-.swiper-container .swiper-wrapper {
-  margin-top: 200px;
-  max-width: 1100px;
-  justify-content: space-between;
-}
-.swiper-container .swiper-wrapper .swiper-slide {
-  max-width: 300px;
+.swiper {
+  height: 300px;
+  width: 600px;
 }
 
 .timer {

@@ -6,8 +6,10 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -36,7 +38,7 @@
                   <a href="" class="header_ahref">Home</a>
                 </li>
                 <li class="header_li">
-                  <a href="" class="header_ahref">Products</a>
+                  <a href="index2.html" class="header_ahref">Products</a>
                 </li>
                 <li class="header_li">
                   <a href="" class="header_ahref">Feedback</a>
@@ -154,20 +156,24 @@
           class="responsiveMan" />
       </div>
     </section>
-    <div class="swiper-container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="assets/svg/swiper/Frame 22.png" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/svg/swiper/Frame 61.png" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/svg/swiper/Frame 62.png" alt="" />
-        </div>
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
       </div>
-
+      <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
     </div>
     <div class="timer">
       <h2 class="timerTitle">Big Summer Sale</h2>
@@ -175,21 +181,21 @@
       <div class="timerContainer">
         <div class="d1v">
           <div class="timerDiv">
-            <p class="time">25</p>
+            <p class="time day">25</p>
             <p class="time2">DAYS</p>
           </div>
           <div class="timerDiv">
-            <p class="time">25</p>
+            <p class="time hour">25</p>
             <p class="time2">HOURS</p>
           </div>
         </div>
         <div class="d1v">
           <div class="timerDiv">
-            <p class="time">25</p>
+            <p class="time min">25</p>
             <p class="time2">MINUTES</p>
           </div>
           <div class="timerDiv">
-            <p class="time">25</p>
+            <p class="time sec">25</p>
             <p class="time2">SECONDS</p>
           </div>
         </div>
@@ -263,6 +269,8 @@
         </div>
       </div>
     </footer>
-    <link rel="stylesheet" href="js/swiper.js" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
