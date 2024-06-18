@@ -121,6 +121,19 @@ body {
         }
       }
     }
+    .swiper {
+      max-width: 600px;
+
+      .swiper-wrapper {
+        width: 100%;
+
+        .swiper-slide {
+          max-width: 400px;
+          img {
+          }
+        }
+      }
+    }
     footer {
       margin: 0 auto;
       width: 100%;
@@ -194,7 +207,7 @@ body {
           .burgerandLogo {
             width: 100%;
             justify-content: space-between;
-            max-width: 350px;
+            max-width: 250px;
 
             justify-content: space-between;
             display: flex;
@@ -214,6 +227,9 @@ body {
             display: none;
           }
         }
+      }
+      .underline {
+        display: none;
       }
     }
     .section1 {
@@ -270,13 +286,11 @@ body {
         .img_responsive {
           display: flex;
           width: 100%;
-          max-width: 400px;
+
           z-index: 0;
-          overflow: hidden;
-          margin-top: -300px;
-          margin: -300px 0 auto 0px;
-          justify-content: center;
-          align-items: center;
+
+          width: 100%;
+          margin: -350px 0 auto 0px;
         }
       }
     }
